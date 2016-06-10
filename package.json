@@ -1,6 +1,6 @@
 {
   "name": "language-solus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Brenton Horne <brentonhorne77@gmail.com>",
   "description": "Solus development package",
   "repository": {
@@ -15,9 +15,6 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "packageDependencies": [
-    "language-yaml"
-  ],
   "devDependencies": {
     "coffee-script": "^1.8.0"
   }

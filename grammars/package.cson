@@ -1,0 +1,20 @@
+'name': 'package.yml'
+'scopeName': 'source.yaml.pkg'
+'fileTypes': ['package.yml']
+'patterns': [
+  {
+    'include': 'source.yaml'
+  }
+  {
+    'match': '(%)(?:apply_patch|autogen|cmake|configure|make|make_install|patch|perl_build|perl_install|perl_setup|reconfigure)'
+    'name':  'support.actionable.macros'
+  }
+  {
+    'match': '(%)(?:CONFOPTS|CFLAGS|CXXFLAGS|LDFLAGS|CC|CXX|JOBS|installroot|libdir|workdir)(%)'
+    'name':  'support.variable.macros'
+  }
+  {
+    'match': '^\\b(?:clang|autodep|check|emul32|libsplit|rundeps|replaces|patterns|name|version|source|license|component|summary|description|setup|build|install)'
+    'name':  'support.keys'
+  }
+]

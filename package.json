@@ -1,0 +1,24 @@
+{
+  "name": "language-solus",
+  "version": "0.0.0",
+  "author": "Brenton Horne <brentonhorne77@gmail.com>",
+  "description": "Solus development package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fusion809/language-solus"
+  },
+  "bugs": {
+    "url": "https://github.com/fusion809/language-solus/issues"
+  },
+  "readme": "./README.md",
+  "license": "GPL-3.0",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "packageDependencies": [
+    "language-yaml"
+  ],
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}

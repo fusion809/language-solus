@@ -1,0 +1,4 @@
+'.source.yaml.pkg':
+  'Default package.yml Template':
+    'prefix': 'pyml'
+    'body': 'name        : ${1}\nversion     : ${2}\nrelease     : ${3}nsource     :\n    - ${4} : ${5}\nlicense     :\n    - ${6}\ncomponent   : ${7}\nsummary     : ${8}\ndescription : |\n    ${9}\nsetup      : |\n    ${10}\nbuild      : |\n    ${11}\ninstall    : |\n    ${12}'

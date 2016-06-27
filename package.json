@@ -10,7 +10,8 @@
   "bugs": {
     "url": "https://github.com/fusion809/language-solus/issues"
   },
-  "readme": "./README.md",
+  "readmeFilename": "README.md",
+  "licenseFilename": "LICENSE.md",
   "license": "GPL-3.0",
   "engines": {
     "atom": ">0.50.0"

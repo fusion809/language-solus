@@ -1,6 +1,6 @@
 {
   "name": "language-solus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Brenton Horne <brentonhorne77@gmail.com>",
   "description": "Solus development package",
   "repository": {
